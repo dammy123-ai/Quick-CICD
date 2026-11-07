@@ -1,6 +1,6 @@
-from flask import flask
+from flask import Flask
 app = Flask(__name__)
 
 @app.get("/")
-def home() :
-    return {"message" : "DevOps CI/CD is working!"}
+def home():
+    return {"message": "DevOps CI/CD is working!"}
